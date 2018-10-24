@@ -28,6 +28,7 @@ module.exports.http = {
       return next();
     }
     //,poweredBy: false
+    ,compress: require('compression')()
 
     /***************************************************************************
     *                                                                          *
